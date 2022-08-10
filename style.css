@@ -1,0 +1,10 @@
+h1,
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+figcaption{
+  padding: 10px 0px;
+}
+body {
+  background-color: rgb(168, 173, 245);
+}
