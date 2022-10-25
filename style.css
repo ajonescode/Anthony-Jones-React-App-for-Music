@@ -35,6 +35,7 @@ figcaption {
   /* border: 1px solid yellow; */
 }
 
+
 audio {
   /* border: 1px solid red; */
   /* padding: 5px; */
@@ -60,6 +61,7 @@ header>nav>ul>li {
 .small-pic {
   width: 100px;
   height: 100px;
+ 
 }
 
 .name-box {
