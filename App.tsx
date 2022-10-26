@@ -9,7 +9,7 @@ import OldHits from './src/Pages/OldHits';
 export default function App() {
   return (
     <div>
-      
+      <OldHits />
    
  
     
