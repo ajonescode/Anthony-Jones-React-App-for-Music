@@ -1,10 +1,14 @@
 import * as React from 'react';
 import './style.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
 
 export default function App() {
   return (
     <div>
-        <h1>Bandino Music</h1>
+       
             <header>
                 <nav>
                     <ul>
