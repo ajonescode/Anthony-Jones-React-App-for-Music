@@ -2,12 +2,14 @@ import * as React from 'react';
 import './style.css';
 import Trackview from './src/Components/Trackview';
 import Navbar from './src/Components/Navbar';
+import Title from './src/Components/Title'
 
 
 
 export default function App() {
   return (
     <div>
+      <Title />
       <Navbar />
    
  
