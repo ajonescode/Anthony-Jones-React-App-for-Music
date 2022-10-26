@@ -8,11 +8,11 @@ return(
     </figcaption>
     <img
         class="small-pic"
-        src=""
+        src={props.Picture}
         alt=""
       />
     <audio controls>
-      <source src="https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/24hrs.wav"></source>
+      <source src={props.AudioTrack}></source>
     </audio>
   </div>
 );

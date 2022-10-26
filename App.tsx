@@ -10,7 +10,7 @@ export default function App() {
     <div>
   
     <Navbar />
-    <Trackview />
+    <Trackview Trackname = "24 hrs" AudioTrack = "https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/24hrs.wav"/>
     
     <section class="Music-Block">
     
