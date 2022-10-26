@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-const Trackview = () => {
+const Trackview = (props) => {
 return(
   <div>
     <figcaption>
-      <span class="name-box">24 hrs prod. By Bandino</span>
+      <span class="name-box">{props.Trackname}</span>
     </figcaption>
     <img
         class="small-pic"
@@ -17,3 +17,5 @@ return(
   </div>
 );
 };
+
+export default Trackview
