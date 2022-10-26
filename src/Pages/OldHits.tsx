@@ -1,27 +1,12 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Outlet, Link } from 'react-router-dom';
-import Trackview from './src/Pages/Trackview';
-import Navbar from './src/Components/Navbar';
-import Title from './src/Components/Title';
+import Trackview from './src/Components/Trackview.tsx';
 
 const OldHits = () => {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/NewestBangers">About</Link>
-          </li>
-          <li>
-            <Link to="/OldHits">About</Link>
-          </li>
-        </ul>
-      </nav>
-      <Outlet />
+  
       <Title name="Bandino Music" />
       <Navbar />
 
