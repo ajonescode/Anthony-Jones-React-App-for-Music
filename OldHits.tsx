@@ -30,10 +30,7 @@ const OldHits = () => {
         Trackname="Bandino Mayhem 3"
         AudioTrack="https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/bandinomayhem3.wav"
       />
-      <Trackview
-        Trackname="Fly prod. By Bandino"
-        AudioTrack="https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/fly+prod+bandino+88_Master.wav"
-      />
+ 
 
 </section>
     </div>
