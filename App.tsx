@@ -1,16 +1,17 @@
 import * as React from 'react';
 import './style.css';
-import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import './src/Components/Title.tsx'
+import './src/Components/Navbar.tsx';
+import './src/Components/Title.tsx';
 
 
 export default function App() {
   return (
     <div>
-      
+     
             
-            <section class="Music-Block">
+    
+    
+    <section class="Music-Block">
     
     <figcaption>
       <span class="name-box">24 hrs prod. By Bandino</span>

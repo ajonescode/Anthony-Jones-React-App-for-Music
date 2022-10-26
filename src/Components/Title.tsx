@@ -1,10 +1,7 @@
 import * as React from 'react';
-import './style.css';
 
 const title = () => {
-  <div>
-    <h1>Bandino Music</h1>
-  </div>
-}
+  return <h1>Bandino Music</h1>;
+};
 
-export default title
+export default title;
