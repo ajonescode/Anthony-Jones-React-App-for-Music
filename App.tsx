@@ -2,22 +2,14 @@ import * as React from 'react';
 import './style.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+// import './src/Components/Title.tsx'
 
 
 export default function App() {
   return (
     <div>
-       
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="#">Newest Bangers</a></li>
-                        <li><a href="#">Old Hits</a></li>
-                    </ul>
-                </nav>
-            </header>
+      
+            
             <section class="Music-Block">
     
     <figcaption>
