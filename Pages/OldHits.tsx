@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Outlet, Link } from 'react-router-dom';
-import Trackview from './src/Components/Trackview.tsx';
+import Title from './Components/Trackview';
 
 const OldHits = () => {
   return (
