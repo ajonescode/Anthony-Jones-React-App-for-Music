@@ -1,29 +1,17 @@
 import * as React from 'react';
 import './style.css';
-import './src/Components/Navbar.tsx';
-import './src/Components/Title.tsx';
+
 
 
 export default function App() {
   return (
     <div>
-     
-            
+  
     
     
     <section class="Music-Block">
     
-    <figcaption>
-      <span class="name-box">24 hrs prod. By Bandino</span>
-    </figcaption>
-    <img
-        class="small-pic"
-        src=""
-        alt=""
-      />
-    <audio controls>
-      <source src="https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/24hrs.wav"></source>
-    </audio>
+    
     <figcaption>
     <img
         class="small-pic"
