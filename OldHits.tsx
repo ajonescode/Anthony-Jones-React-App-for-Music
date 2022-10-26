@@ -1,7 +1,9 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Outlet, Link } from 'react-router-dom';
-import Title from './Components/Trackview';
+import Title from './Trackview';
+import Navbar from './Navbar';
+import Trackview from './Trackview'
 
 const OldHits = () => {
   return (
