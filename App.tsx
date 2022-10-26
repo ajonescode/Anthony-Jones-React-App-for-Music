@@ -9,7 +9,7 @@ import Title from './src/Components/Title'
 export default function App() {
   return (
     <div>
-      <Title />
+      <Title name = "Bandino Music" />
       <Navbar />
    
  
