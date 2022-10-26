@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Trackview from './src/Components/Trackview';
 import Navbar from './src/Components/Navbar';
 import Title from './src/Components/Title'
