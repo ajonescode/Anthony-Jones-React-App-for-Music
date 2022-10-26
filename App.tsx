@@ -1,15 +1,15 @@
 import * as React from 'react';
 import './style.css';
-import Navbar from './src/Components/Navbar.tsx';
-import Trackview from './src/Components/Trackview.tsx';
+import Trackview from './src/Components/Trackview';
+import Navbar from './src/Components/Navbar';
 
 
 
 export default function App() {
   return (
     <div>
-  
-    <Navbar />
+      <Navbar />
+   
  
     
     <section class="Music-Block">
