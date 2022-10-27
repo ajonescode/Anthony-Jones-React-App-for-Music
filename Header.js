@@ -11,10 +11,10 @@ return(
     <nav>
       <ul>
         <li>
-        <Link to='/'> Home </Link>
+          <a href="#">Newest Bangers</a>
         </li>
         <li>
-         <Link to ='/NewestBangers'> Newest Bangers </Link>
+          <a href="#">Old Hits</a>
         </li>
       </ul>
     </nav>
