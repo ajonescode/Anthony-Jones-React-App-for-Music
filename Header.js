@@ -1,23 +1,20 @@
 import * as React from 'react';
 import ReactDOM from "react-dom/client";
 import './style.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
-const Navbar = () => {
+const Header = () => {
 return(
   <div>
   <header>
     <nav>
       <ul>
         <li>
-          <a href="">About</a>
+        <Link to='/'> Home </Link>
         </li>
         <li>
-          <a href="#">Newest Bangers</a>
-        </li>
-        <li>
-          <a href="#">Old Hits</a>
+         <Link to ='/NewestBangers'> Newest Bangers </Link>
         </li>
       </ul>
     </nav>
@@ -27,4 +24,4 @@ return(
 
 };
 
-export default Navbar
+export default Header
