@@ -19,3 +19,5 @@ const NewestBangers = () => {
     </div>
   );
 };
+
+export default NewestBangers

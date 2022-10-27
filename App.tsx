@@ -11,7 +11,9 @@ import NewestBangers from './NewestBangers';
 export default function App() {
   return (
     <div>
+      <Title name = "Bandino Music" />
       <Header />
+      <NewestBangers />
     </div>
   );
 }
